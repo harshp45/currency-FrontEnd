@@ -1,0 +1,27 @@
+.spacer{
+    flex: 1;
+}
+
+.toolba{
+    width: 100%;
+    background-color: black
+}
+
+.toolba_navigation{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 15px;
+}
+
+.items a{
+    padding: 0 0.5rem;
+}

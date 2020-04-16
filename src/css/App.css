@@ -1,0 +1,107 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.navbar-custom {
+  background-color: black;
+  color: white;
+}
+.whitecolor{
+  color: white;
+}
+.rightContent{
+  float: right;
+  text-align: right;
+}
+.headingContent{
+  padding-bottom: 3%;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+a{
+  color: white;
+}
+.buttonDesign{
+  border: 2px solid grey;
+}
+.buttonDesign:hover{
+  border: 2px solid rgb(153, 186, 207);
+
+}
+.verticalMiddle{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.borderDiv{
+  border: 2px solid grey;
+  border-radius: 2.5%;
+  padding: 2%;
+}
+
+.boxshadow{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 8px rgb(9, 90, 128);
+}
+
+
+.h {
+  max-height: 25rem;
+}
+
+.card-color{
+  background-color: lightgray;
+}
+a{
+  color: white;
+}
+.buttonDesign{
+  border: 2px solid grey;
+}
+.buttonDesign:hover{
+  border: 2px solid white;
+}
+.verticalMiddle{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.borderDiv{
+  border: 2px solid grey;
+  border-radius: 2.5%;
+  padding: 2%;
+}
+
+.h {
+  max-height: 25rem;
+}
+
+.card-color{
+  background-color: ghostwhite;
+}
+
+.currency-card{
+  font-family: 'Times New Roman', Times, serif;
+  color: green;
+}
+
+.stocks-card{
+  font-family: 'Times New Roman', Times, serif;
+  color: red;
+}
+
+.weather-card{
+  font-family: 'Times New Roman', Times, serif;
+  color: blue;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}
