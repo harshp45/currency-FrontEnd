@@ -52,13 +52,15 @@ class Header extends Component {
                 <div class="spacer"></div>
                     {loggedIn ? (
                         <section className="navbar-section">
-                            <Link to="/Home">Home</Link><span>      </span>
-                            <Link to="/AboutUs">AboutUs</Link><span>      </span>
-                            <Link to="/Currency">Currency</Link><span>      </span>
-                            <Link to="/BuyStocks">BuyStocks</Link><span>      </span>
-                            <Link to="/SellStocks">SellStocks</Link><span>      </span>
+                            <div className="items" id="myNavbar">
+                            <Link to="/Home">Home</Link>
+                            <Link to="/AboutUs">AboutUs</Link>
+                            <Link to="/Currency">Currency</Link>
+                            <Link to="/BuyStocks">BuyStocks</Link>
+                            <Link to="/SellStocks">SellStocks</Link>
                             <Link to="/News">News</Link>
                             <Link to="/" className="btn btn-link text-secondary" onClick={this.logout}><span className="text-secondary">logout</span></Link>
+                            </div>
                         </section>
                         ) : (
                         <section className="navbar-section">
